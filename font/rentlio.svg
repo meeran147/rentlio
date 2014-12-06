@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="rentlio" horiz-adv-x="1000" >
+<font-face font-family="rentlio" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel-squared" unicode="&#xe800;" d="m700 750q42 0 71-29t29-71l0-600q0-40-29-70t-71-30l-600 0q-40 0-70 30t-30 70l0 600q0 42 30 71t70 29l600 0z m-146-638l86 86-154 152 154 154-86 86-154-152-152 152-88-86 154-154-154-152 88-86 152 152z" horiz-adv-x="800" />
+<glyph glyph-name="newspaper" unicode="&#xe801;" d="m700 800q42 0 71-29t29-71l0-700q0-40-29-70t-71-30l-600 0q-40 0-70 30t-30 70l0 700q0 42 30 71t70 29l600 0z m0-800l0 700-600 0 0-700 600 0z m-250 250l0-50-250 0 0 50 250 0z m150 200l0-50-200 0 0 50 200 0z m-200 50l0 100 200 0 0-100-200 0z m-50 100l0-200-150 0 0 200 150 0z m-50-250l0-50-100 0 0 50 100 0z m50-50l0 50 250 0 0-50-250 0z m250-150l0-50-400 0 0 50 400 0z m-100 50l0 50 100 0 0-50-100 0z" horiz-adv-x="800" />
+<glyph glyph-name="cog" unicode="&#xe802;" d="m760 350q0-72 80-122-12-40-34-82-70 18-136-44-54-58-34-136-40-20-84-36-46 82-132 82t-132-82q-44 16-84 36 20 80-34 136-54 54-136 34-14 26-34 82 82 52 82 132 0 72-82 124 20 56 34 82 74-18 136 44 54 56 34 136 42 22 84 34 46-80 132-80t132 80q42-12 84-34-20-78 34-136 66-62 136-44 22-42 34-82-80-50-80-124z m-340-182q76 0 129 53t53 129-53 130-129 54-129-54-53-130 53-129 129-53z" horiz-adv-x="840" />
+</font>
+</defs>
+</svg>

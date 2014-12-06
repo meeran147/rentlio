@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Rentlio testni zadatak</title>
+        <link rel="stylesheet" href="css/production.css" />
+        
+    </head>
+    <body>
+		<div class="popup">
+            <div class="popup-inner"></div>
+            <ul class="popup-actions">
+                <li class="edit"><a href="#"><i class="icon-cog"></i> Edit</a></li>
+                <li class="invoice"><a href="#"><i class="icon-newspaper"></i> Invoice</a></li>
+                <li class="delete"><a href="#"><i class="icon-cancel-squared"></i> Delete</a></li>
+            </ul>
+        </div>
+        <script id="popupTemplate" type="text/template">   
+            <div class="block reservation-data">
+                <div class="left">
+                    <div class="guest-calendar"><%= dateFrom %> - <%= dateTo %>.</div>
+                    <div class="guest-stay"><%= nights %> Nights / <%= adults %> adults / <%= children %> children<br>
+                    <%= totalPrice %> EUR (<%= totalPrice/nights %> per night)</div>
+                </div>
+                <form class="right">
+                     <label for="confirmed">Confirmed <input type="radio" name="options" id="confirmed" checked /><span></span></label>
+                     <label for="option">Option <input type="radio" name="options" id="option" /><span></span></label>
+                </form>
+            </div>
+            <div class="block personal-info">
+                <div class="left">
+                    <div class="guest-name"><%= guest.name %></div>
+                    <div class="guest-email"><%= guest.email %></div>
+                </div>
+                <div class="right">
+                    <div class="guest-country"><%= guest.country %></div>
+                    <div class="guest-phone"><%= guest.phone %></div>
+                </div>
+            </div>
+            <div class="notes">
+                <p class="guest-note"><%= guest.note %></p>
+            </div>
+        </script>
+        <script src="scripts/production.min.js"></script>
+    </body>
+</html>

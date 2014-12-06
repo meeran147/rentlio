@@ -1,0 +1,16 @@
+{
+	"dateFrom": "8.11",
+	"dateTo": "18.11",
+	"nights": "10",
+	"adults": "2",
+	"children": "2",
+	"totalPrice": "2000",
+	"status": "Confirmed",
+	"guest": {
+		"name": "Marko Željkić",
+		"email": "marko@zeljkic.com",
+		"country": "Croatia (Hrvatska)",
+		"phone": "091 222 333",
+		"note": "Ovdje ide bilješka"
+	}
+}
