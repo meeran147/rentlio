@@ -153,9 +153,9 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-animation: popup 1s ease-out;
-  -moz-animation: popup 1s ease-out;
-  animation: popup 1s ease-out;
+  -webkit-animation: popup 0.5s ease-out;
+  -moz-animation: popup 0.5s ease-out;
+  animation: popup 0.5s ease-out;
 }
 .popup:after {
   content: "";
@@ -289,6 +289,13 @@ input[type="radio"]:focus {
   color: #8b8b8b;
   font-size: 13px;
   line-height: 1.5em;
+}
+[class^='guest-'] a {
+  color: inherit;
+  text-decoration: none;
+}
+[class^='guest-'] a:hover {
+  text-decoration: underline;
 }
 
 .guest-calendar {

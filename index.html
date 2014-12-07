@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Rentlio testni zadatak</title>
+        <title>Rentl.io testni zadatak</title>
         <link rel="stylesheet" href="css/production.css" />
         
     </head>
@@ -23,14 +23,14 @@
                     <%= totalPrice %> EUR (<%= totalPrice/nights %> per night)</div>
                 </div>
                 <form class="right">
-                     <label for="confirmed">Confirmed <input type="radio" name="options" id="confirmed" checked /><span></span></label>
-                     <label for="option">Option <input type="radio" name="options" id="option" /><span></span></label>
+                     <label for="option1"><%= status %> <input type="radio" name="options" id="option1" checked /><span></span></label>
+                     <label for="option2">Option <input type="radio" name="options" id="option2" /><span></span></label>
                 </form>
             </div>
             <div class="block personal-info">
                 <div class="left">
                     <div class="guest-name"><%= guest.name %></div>
-                    <div class="guest-email"><%= guest.email %></div>
+                    <div class="guest-email"><a href="mailto:<%= guest.email %>"><%= guest.email %></a></div>
                 </div>
                 <div class="right">
                     <div class="guest-country"><%= guest.country %></div>

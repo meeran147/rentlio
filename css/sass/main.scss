@@ -35,7 +35,7 @@ body{
     box-shadow: 0 2px 8px #ddd;
     border-radius: 2px;
     @include transform(translate(-50%, -50%));
-    @include animation(popup 1s ease-out);
+    @include animation(popup .5s ease-out);
     
     &:after{
         content: "";
@@ -53,10 +53,12 @@ body{
 
 @include keyframes(popup) {
   from {
-    opacity: 0; top: 40%;
+      opacity: 0; 
+      top: 40%; 
   }
   to {
-    opacity: 1; top: 50%;;
+      opacity: 1; 
+      top: 50%;;
   }
 }
 
@@ -163,6 +165,15 @@ input[type="radio"]{
     color: #8b8b8b;
     font-size: 13px;
     line-height: 1.5em;
+    
+    & a{
+        color: inherit;
+        text-decoration: none;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 .guest-calendar{
